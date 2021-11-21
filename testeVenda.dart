@@ -44,9 +44,6 @@ main(){
       ]
   );
     
-    print("O valor total é: ${venda.valorTotal}");
-
-    print(venda.itens![0].produto!.nome);
-    print(venda.cliente!.nome);
+    venda.recibo();
   
 }
